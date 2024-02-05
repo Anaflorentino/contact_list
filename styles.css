@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #f4f4f4; 
+    letter-spacing: 1px;
+}
+
+.container-geral {
+    max-width: 600px;
+    padding: 20px; 
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 20px auto; 
+    overflow: hidden; /* Evitar que a sombra ultrapasse o contêiner */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333; 
+}
+
+p {
+    font-size: 16px;
+    color: #666; 
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 0; 
+}
+
+/* tabela de lista de contatos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+/* header tabela */
+table th {
+    background-color: #333; 
+    color: #fff; 
+}
+
+/* botões */
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Adicionar contato */
+.add-contact {
+    background-color: #00ff73; /* Cor de fundo verde para adicionar */
+    color: #fff; /* Cor do texto do botão */
+}
+
+/* Deletar contato */
+.del-contact  {
+    padding: 6px 12px;
+    background-color: #ff4141; /* Cor de fundo vermelho para excluir */
+    color: #fff; /* Cor do texto do botão de exclusão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* editar contato */
+.edit-contact  {
+    padding: 6px 12px;
+    background-color: #444444; /* Cor de fundo vermelho para excluir */
+    color: #fff; /* Cor do texto do botão de exclusão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* efeito to botão */
+button:hover {
+    filter: brightness(1.2);
+}

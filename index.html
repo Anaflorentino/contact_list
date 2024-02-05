@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Lista de Contatos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Contatos</h1>
+    </header>
+    
+    <div class="container-geral">
+        <!-- Adicionar Contato -->
+        <form id="form">    
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="tel" pattern="[0-9]*" id="tel" placeholder="Telefone">
+            <button class="btn add-contact" id="add-contact">+</button> <!-- Botão "Adicionar" -->
+
+        </form>
+        
+        <!-- Tabela de lista de contatos -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Número</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="contacts_container">
+                <!-- As linhas de exemplo foram removidas -->
+            </tbody>
+        </table>
+             
+            </tbody>
+        </table>
+    </div>
+        
+    <!-- .js -->
+    <script src="./main.js"></script>
+</body>
+</html>
